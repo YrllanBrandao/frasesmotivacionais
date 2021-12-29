@@ -13,20 +13,7 @@ const inputPhrase = document.querySelector("#inputFrases");
      .then((frase) => {
        
        inputPhrase.innerHTML = frase.slip.advice})
-    /*   const f = frase.slip.advice;
-      const urlTranslate = `https://api.mymemory.translated.net/get?q=${f}!&langpair=en|pt-br`;
-       
-       
-       fetch(urlTranslate)
-         .then(response => response.json())
-         .then(traducao => inputPhrase.innerHTML = traducao.responseData.translatedText)
-         
-   
-     
-     } )
-     .catch(error => console.log('erro'))
-   
-   */
+    
    
  })
  
